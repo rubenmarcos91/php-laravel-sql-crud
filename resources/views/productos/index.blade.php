@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>EJEMPLO DE CRUD + BBDD PHP + SQL</h1>
+    <h1>EJEMPLO DE CRUD PHP Lavarel + MySQL</h1>
+    <h5>Rubén Marcos Fraile</h5>
+    <br>
     <a href="{{ route('productos.create') }}" class="btn btn-success mb-3">Nuevo Producto</a>
     
     <table class="table table-bordered">
